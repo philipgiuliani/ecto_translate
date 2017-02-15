@@ -29,9 +29,9 @@ defmodule EctoTranslate.Mixfile do
   defp applications(_), do: [:logger]
   defp deps do
     [
-      {:ecto, "~>2.0.4"},
-      {:gettext, "~>0.11.0"},
-      {:postgrex, "~> 0.11.2", only: [:dev, :test]},
+      {:ecto, "~>2.0"},
+      {:gettext, "~>0.11"},
+      {:postgrex, "~> 0.11", only: [:dev, :test]},
       {:credo, "~> 0.4.8", only: [:dev, :test]},
       {:earmark , "~> 1.0.1"  , only: :dev},
       {:ex_doc  , "~> 0.13.0" , only: :dev},
